@@ -54,9 +54,9 @@ function displayCountry(countryData) {
     img.src = countryData[i].flags.png;
     div2.appendChild(img);
 
-    const h1name = document.createElement("h1");
-    h1name.innerText = countryData[i].name.official;
-    div2.appendChild(h1name);
+    const h2name = document.createElement("h2");
+    h2name.innerText = countryData[i].name.official;
+    div2.appendChild(h2name);
 
     const h4subregion = document.createElement("h4");
     h4subregion.innerText = "Subregion: " + countryData[i].subregion;
